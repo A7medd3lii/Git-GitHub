@@ -43,3 +43,10 @@ featch changes from remot repo and merge changes with local repo
 ```bash
 git pull origin
 ```
+
+## Git configration 
+add your email and user name
+```bash 
+git config --glabal user.emal "youremail@gmail.com"
+git config --glabal user.name "your Name"
+```
