@@ -37,6 +37,3 @@ you can publish more than commit
 ```bash
 git push Remote_Repo_Name Branch_Name
 ```
-
-
-
