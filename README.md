@@ -38,5 +38,10 @@ you can publish more than commit
 git push Remote_Repo_Name Branch_Name
 ```
 
+## get changes from remote repo 
+featch changes from remot repo and merge changes with local repo
+```bash
+git pull origin
+```
 
 
