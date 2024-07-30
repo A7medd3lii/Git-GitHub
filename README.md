@@ -116,3 +116,51 @@ git branch -D ( branch name )
 git branch -m " branch name "
 ```
 
+## Temporarily save changes (stash)
+This is useful when you need to switch branches or work on something else but want to come back to your current changes later
+```bash
+git stash 
+```
+
+## Stash with a message
+```bash
+git stash save " message "
+```
+
+## Apply the most recent stash
+This will reapply the most recent stash but keep it in the stash list
+```bash
+git stash apply
+```
+
+## Apply a specific stash
+```bash
+git stash apply stash@{No}
+
+```
+
+## Apply and remove the most recent stash
+This will reapply the most recent stash and remove it from the stash list
+```bash
+git stash pop
+```
+
+## Apply and remove a specific stash
+```bash
+git stash pop stash@{No}
+```
+
+## List stashes
+```bash
+git stash list
+```
+
+## Clear all stashes
+```bash
+git stash clear
+```
+
+## Drop a specific stash
+```bash
+git stash drop stash@{No}
+```
