@@ -21,10 +21,11 @@ git add (file name)
 git add * (to add all files at the same time)
 ```
 
-## Reset files
-if you add file to staging area and you want to delet it 
+## Restore files
+if you add file to staging area and you want to restore it 
 ```bash
-git reset head (file name)
+git restore --staged ( file name )
+git reset ( file name )
 ```
 
 ## Move to local repo  
@@ -163,4 +164,28 @@ git stash clear
 ## Drop a specific stash
 ```bash
 git stash drop stash@{No}
+```
+
+## Restore files from staging area
+```bash
+git restore --staged ( file name )
+```
+
+## Show files U want to delete it 
+```bash
+git clean -n
+```
+
+## Delete files 
+```bash
+git clean -f ( file name )
+```
+
+## Delete commits 
+```bash
+git reset --hard ( commit hash )
+```
+then update remote repo
+```bash 
+git push origin main --force 
 ```
