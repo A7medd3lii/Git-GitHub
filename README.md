@@ -28,7 +28,7 @@ git restore --staged ( file name )
 git reset ( file name )
 ```
 
-## Move to local repo  
+## Commit Changes 
 you can give descriptive message for your edit in the project
 ```bash 
 git commit -m " descriptive meassage "
