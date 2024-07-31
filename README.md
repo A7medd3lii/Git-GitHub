@@ -189,3 +189,4 @@ then update remote repo
 ```bash 
 git push origin main --force 
 ```
+you can delete more than commit 
