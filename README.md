@@ -191,9 +191,24 @@ git push origin main --force
 ```
 you can delete more than commit 
 
-## Add tag
+## Add lightweight tag
 ```bash
 git tag Version_No
+```
+
+## Add annotated tag
+```bash
+git tag -a Version_No -m " tag message "
+```
+
+## List tags 
+```bash
+git tag
+```
+
+## Delete tag from local repo
+```bash
+git tag -d ( Version_No )
 ```
 
 ## Delete tag from remote repo
@@ -201,3 +216,13 @@ git tag Version_No
  git push origin --delete ( Version_No )
 ```
 
+## Remove files/dir from remote repo
+```bash
+git rm ( file name )
+git rm -r ( dir name )
+```
+then commit your changes 
+then push the changes to the remote repo
+```bash
+git push origin < branch name >
+```
