@@ -190,3 +190,13 @@ then update remote repo
 git push origin main --force 
 ```
 you can delete more than commit 
+
+## Add tag
+```bash
+git tag Version_No
+```
+
+## Delete tag from remote repo
+```bash
+ git push origin --delete ( Version_No )
+```
